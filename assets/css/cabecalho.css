@@ -49,11 +49,11 @@ header {
     font-size: 1.2rem;
     color: #ccc;
 }
-.menu-hamburguer i:hover{
-    color: #eee;
+.menu-hamburguer:hover i{
+    color: red;
 }
 
-.menu-hamburguer:hover{
+.menu-hamburguer i:hover{
     
-    color: red;
+    color: #eee;
 }
