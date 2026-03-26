@@ -45,6 +45,14 @@ header {
 
 }
 
+.menu-hamburguer i{
+    font-size: 1.2rem;
+    color: #ccc;
+}
+.menu-hamburguer i:hover{
+    color: #eee;
+}
+
 .menu-hamburguer:hover{
     
     color: red;
