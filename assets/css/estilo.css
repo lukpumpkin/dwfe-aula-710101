@@ -28,12 +28,7 @@ section {
   flex: 1;
 }
 
-nav {
-  /* border: 0.1rem solid orangered; */
-  width: 8rem;
-  background-color: #eee;
-  padding: .5rem;
-}
+
 
 main {
   /* border: 0.1rem solid purple; */
