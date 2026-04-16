@@ -1,9 +1,9 @@
 header {
   /* border: 0.1rem solid red; */
+  height: 4rem;
   background-color: #252323;
-  color: #ccc;
-  height: 2rem;
-  padding: 0.9rem;
+  color: #eee;
+  padding: 0.5rem;
   display: flex;
   /* justify-content: center; */
   align-content: center;
@@ -51,10 +51,10 @@ header {
 }
 
 .menu-hamburguer:hover i{
-    color: red;
+    color: #eee;
 }
 
 .menu-hamburguer i:hover{
     
-    color: #000000;
+    color: white;
 }
