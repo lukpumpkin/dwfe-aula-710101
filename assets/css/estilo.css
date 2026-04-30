@@ -2,6 +2,7 @@
 @import url("cabecalho.css");
 @import url("menulateral.css");
 @import url("corpo.css");
+@import url("responsividade.css");
 
 
 * {
