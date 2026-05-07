@@ -1,0 +1,9 @@
+.container{
+    margin: auto;
+    width: 30rem;
+    padding: 2rem;
+    background-color: #252323 ;
+    color: #eee;
+    box-shadow: 0rem .8rem 2rem .1rem;
+    border-radius: 0.5rem;
+}
