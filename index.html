@@ -4,39 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu sites de Noticias</title>
-    <script src="./assets/js/login.js"></script>
+    <script src="./assets/js/login.js" type="module"></script>
     <link rel="stylesheet" href="./assets/login/estilo.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>login</h1>
-            <form action="">
-                <div class="input-grupo">
-                    <i class="fas fa-envelope"></i>
-                    <input type="email" class="email" placeholder="informe sua senha">
-                </div>
-                <div>
-                    <button><i class="fas sign-in-alt"></i>Entrar</button>
-                    <form action="">
-                        <div class="links-auxiliares">
-                            <a href="#">Esqueceu a senha</a>
-                            <span>-</span>
-                            <a href="#">Registre-se</a>
-                        </div>
-                    </form>
-                </div>
-            </form>
-        </div>
     </header>
+    
     <div class="container">
         <h1>login</h1>
-        <form>
-            <input id="email" type="text" placeholder="informe seu email">
-            <input id="senha" type="password" placeholder="informe sua senha">
-            <button onclick="verificarCredenciais(); return false;">Entrar</button>
+        <form action="">
+            <div class="input-grupo">
+                <i class="fas fa-envelope"></i>
+                <input type="email" class="email" placeholder="informe sue email">
+                <input type="email" class="email" placeholder="informe sua senha">
+            </div>
+            <div>
+                <button><i class="fas sign-in-alt"></i>Entrar</button>
+                <form action="">
+                    
+                    <div class="links-auxiliares">
+                        <a href="#">Esqueceu a senha</a>
+                        <span>-</span>
+                        <a href="#">Registre-se</a>
+                    </div>
+                </form>
+            </div>
         </form>
     </div>
-    
 </body>
 </html>
