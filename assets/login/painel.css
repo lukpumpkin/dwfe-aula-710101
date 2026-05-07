@@ -89,3 +89,18 @@ button:hover{
     gap: .8rem;
 }
 
+.links-auxiliares a{
+    color: #4a90e2;
+    text-decoration: underline;
+}
+
+.links-auxiliares a:hover{
+    color: #6ba3f5;
+    text-decoration: underline;
+}
+
+.links-auxiliares span{
+    color: #686868;
+    font-weight: bold;
+}
+
