@@ -6,6 +6,7 @@
     color: #eee;
     box-shadow: 0rem .8rem 2rem .1rem;
     border-radius: 0.5rem;
+
 }
 
 .container h1{
@@ -26,6 +27,9 @@
     position: relative;
     display: flex;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
 }
 
 .input-grupo i{
