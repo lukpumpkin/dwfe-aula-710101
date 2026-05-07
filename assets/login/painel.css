@@ -74,3 +74,18 @@ button{
     gap: .5rem;
 }
 
+button:hover{
+    background-color: #1818b0;
+    gap: .3rem;
+    box-shadow: 0 0.3rem .8rem #0052cc4d;
+}
+
+.links-auxiliares{
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: .9rem;
+    display: flex;
+    justify-content: center;
+    gap: .8rem;
+}
+
