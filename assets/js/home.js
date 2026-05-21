@@ -9,7 +9,7 @@ opcao_noticia.addEventListener("click", (e) =>{
 });
 
 function alternarApresentacaoDasNoticias() {
-    if(vetor_das_noticias.length == 0); {
+    if(vetor_das_noticias.length == 0){
         carregarNoticias();
         apresentarNoticias();
     } else {
@@ -18,4 +18,31 @@ function alternarApresentacaoDasNoticias() {
     }
 }
 
-const carregar
+async function carregarNoticias() {
+    vetor_das_noticias = dados_das_noticias;
+};
+
+function apresentarNoticias(){
+    vetor_das_noticias.forEach(noticia => {
+        const cartao = document.createElement("div");
+        cartao.className = "cartao";
+
+        cartao.innerHTML = `
+        <img src="${noticia.imagem}" alt="${noticia.titulo}" class"imagem-do-cartao">
+        <section class="corpo-do-cartao">
+            <h1 class="titulo-do-cartao">${noticia.categoria}</span>
+            <p class="classificacao">
+                <span class="categoria-da-noticia">${noticia.categoria}</span>
+                <span class="data-da-noticia">${noticia.data}</span>
+            </p>
+            <p class="descricao-da-noticia">${noticia.descricao}</p>
+            <p class="autor-da-noticia">${noticia.autor}</p>
+        </section>
+        <a class="botao-do-cartao" href="".detalhes.html?id=${noticia.id}">Leia mais</a>
+        `;
+
+
+        container_das_noticias.appendChild(cartao);
+    })    
+}
+
