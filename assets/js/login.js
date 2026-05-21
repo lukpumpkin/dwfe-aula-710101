@@ -1,6 +1,6 @@
 import { usuario } from "./bd.js";
 const email = usuario.email;
-const senha = usuario.senha:
+const senha = usuario.senha;
 
 function verificarCredenciais() {
     const emailInformado = document.getElementById("email").value;
@@ -8,19 +8,14 @@ function verificarCredenciais() {
 
 
     if (emailInformado === email) {
-        alert("senha informada corretamnet");
-
         if (senhaInformado === senha) {
             alert("senha informada corretamente");
             window.location = "home.html";
         } else {
             alert("senha informada incorretamente!");
-
-    } else {
-            alert("email informado incorretamente!");
-
         }
-
+    } else {
+        alert("email informado incorretamente!");
     }
 }
 
