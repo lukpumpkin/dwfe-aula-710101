@@ -1,4 +1,4 @@
-import { dados_das_noticias } from "./db.js";
+import { dados_das_noticias } from "./bd.js";
 
 let vetor_das_noticias = [];
 const container_das_noticias = document.getElementById("noticias");
@@ -38,7 +38,7 @@ function apresentarNoticias(){
             <p class="descricao-da-noticia">${noticia.descricao}</p>
             <p class="autor-da-noticia">${noticia.autor}</p>
         </section>
-        <a class="botao-do-cartao" href="".detalhes.html?id=${noticia.id}">Leia mais</a>
+        <a class="botao-do-cartao" href="./detalhe.html?id=${noticia.id}">Leia mais</a>
         `;
 
 
