@@ -1,0 +1,16 @@
+@import url("cabecalho.css");
+@import url("corpo.css");
+
+* {
+  font-family: "Segoe UI", tahoma, geneva, Verdana;
+  font-size: 16px;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+body {
+  /* border: .1rem solid purple; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
